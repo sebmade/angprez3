@@ -1,0 +1,11 @@
+<div class="container">
+    <br><br><br>
+    <h1 class="subtitle">Shadow DOM</h1>
+<pre class="html prettyprint"><span class="tag">&lt;div&gt;</span><span class="pln">Just an ordinary markup, nothin' to see here...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+  </span><span class="kwd">var</span><span class="pln"> innocentHost </span><span class="pun">=</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">querySelector</span><span class="pun">(</span><span class="str">'div'</span><span class="pun">);</span><span class="pln">
+  </span><span class="kwd">var</span><span class="pln"> deviousShadow </span><span class="pun">=</span><span class="pln"> innocentHost</span><span class="pun">.</span><span class="pln">webkitCreateShadowRoot</span><span class="pun">();</span><span class="pln">
+  deviousShadow</span><span class="pun">.</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"&lt;h1&gt;Boo!&lt;/h1&gt;"</span><span class="pun">;</span><span class="pln">
+  deviousShadow</span><span class="pun">.</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"&lt;h1&gt;Boo!&lt;/h1&gt;&lt;content&gt;&lt;/content&gt;"</span><span class="pun">;</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span></pre>
+</div>

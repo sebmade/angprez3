@@ -1,0 +1,214 @@
+@import "fonts.css";
+@import "code-prettify.css";
+
+body, .header, h1 {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+}
+
+.center, .container {
+    text-align: center;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    line-height: 1.1;
+    font-size: 2em;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #0000ff;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -58px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.title {
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.header {
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    background-color: rgba(0, 40, 50, 0.8);
+    z-index: 1;
+    padding: 13px 15px;
+    border-radius: 10px;
+}
+
+.slideNo {
+    padding: 25px 25px;
+    position: fixed;
+    float: right;
+    bottom: 0;
+    right: 0;
+}
+
+.title2 {
+    font-size: 3em;
+    margin: 20px;
+}
+
+.subtitle {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.item_list {
+    font-size: 2em;
+    text-align: left;
+    margin: 20px;
+}
+
+.overline-yellow {
+    background-color: #fffa00;
+
+}
+
+.overline-red {
+    background-color: #ff0200;
+
+}
+.code {
+    vertical-align: middle;
+    font-size: 48px;
+    font-family: "courier new";
+    font-weight: bold;
+}
+
+.bloc {
+    color: #fff;
+    background-color: rgba(0, 40, 50, 0.8);
+    margin: 70px 125px;
+    padding: 6px 10px 3px 10px;
+    border-radius: 10px;
+}
+
+.tag2 {
+    font-size: 2em;
+    color: #fff;
+    background-color: rgba(0, 40, 50, 0.8);
+    margin: 5px 5px;
+    padding: 3px 26px;
+    border-radius: 10px;
+}
+
+.prettyprint {
+    text-align: left;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #578;
+    border-radius: 8px;
+}
+.note {
+    font-size: 1em;
+    margin: 10px;
+}
+
+.back-image {
+    width: 75%;
+    height: 75%;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -512px;
+    margin-right: 0;
+    margin-top: -384px;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    width: 924px;
+    height: 668px;
+}
+
+.right-triangle {
+    position: fixed;
+    bottom: 50%;
+    top: 50%;
+    right: 0;
+    float: right;
+    width: 0;
+    height: 0;
+    border-left: 40px solid #d9d9d9;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    z-index: 1;
+}
+
+.right-triangle:hover {
+    border-left: 40px solid #8c8c8c;
+}
+.left-triangle {
+    position: fixed;
+    bottom: 50%;
+    top: 50%;
+    left: 0;
+    float: left;
+    width: 0;
+    height: 0;
+    border-right: 40px solid #d9d9d9;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    z-index: 1;
+}
+
+.link {
+    color: #0000ff;
+}
+
+.left-triangle:hover {
+    border-right: 40px solid #8c8c8c;
+}
+
+.social-media {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'SocialMediaFont';
+    width: 20px;
+    opacity: 1;
+    border-radius: 15px;
+    padding: 7px 8px 5px 3px;
+    opacity: 0.6;
+}
+.red {
+    color: red;
+}
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    line-height: 0;
+}
+.rss-icon {
+    background-color: #FF9600;
+}
+.twitter-icon {
+    background-color: #45B0E3;
+}
+.gplus-icon {
+    background-color: #B33022;
+}
+
+.social-icons {
+}

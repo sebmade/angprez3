@@ -1,0 +1,67 @@
+[
+  {
+    "content":"slide0.html"
+  },
+  {
+    "title":"document &ne; application",
+    "content":"slide1.html"
+  },
+  {
+    "title":"JavaScript ?",
+    "content":"slide2.html"
+  },
+  {
+    "content":"slide3.html"
+  },
+  {
+    "title":"Concept",
+    "content":"slide4.html"
+  },
+  {
+    "title":"MV* et scope",
+    "content":"slide5.html"
+  },
+  {
+    "title":"Runtime",
+    "content":"slide6.html"
+  },
+  {
+    "title":"AJAX ?",
+    "content":"slide7.html"
+  },
+  {
+    "title":"routes",
+    "content":"route.html"
+  },
+  {
+    "content":"2waydb.html"
+  },
+  {
+    "title":"",
+    "content":"sampledb.html"
+  },
+  {
+    "title":"ECMAScript 6",
+    "content":"observe.html"
+  },
+  {
+    "title":"fondamentaux",
+    "content":"directive.html"
+  },
+  {
+    "title":"W3C Web Components",
+    "content":"webcomponent-sd.html"
+  },
+  {
+    "title":"W3C Web Components",
+    "content":"webcomponent-ce.html"
+  },
+  {
+    "title":"R&eacute;p&eacute;tition",
+    "content":"repeater.html"
+  },
+  {
+    "title":"Recherche de slide",
+    "content":"repeat.html"
+  }
+]
