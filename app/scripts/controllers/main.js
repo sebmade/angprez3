@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('angprez2App')
-  .controller('MainCtrl', function ($scope, $document, $http) {
-    $scope.slideIndex = 0;
+  .controller('MainCtrl', function ($scope, $document, $http, $routeParams) {
+    $scope.slideIndex = +$routeParams.id;
 
     $http.get("/data/slides.json").success(function(data) {
       $scope.slides = data;

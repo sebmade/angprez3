@@ -4,24 +4,10 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="angprez2App" ng-controller="MainCtrl">
+  <body ng-app="angprez2App">
 
     <!-- Add your site or application content here -->
-    <div class="slide">
-        <a ng-click="previousSlide()">
-            <div class="left-triangle"></div>
-        </a>
-        <div class="header" ng-show="slides[slideIndex].title">
-            <h1 class="title" ng-bind-html-unsafe="slides[slideIndex].title"></h1>
-        </div>
-        <div ng-include="currentSlide()"></div>
-        <a ng-click="nextSlide()">
-            <div class="right-triangle"></div>
-        </a>
-    <span class="slideNo">
-        <span>{{slideIndex+1}}</span> / <span>{{slides.length}}</span>
-    </span>
-    </div>
+    <div ng-view></div>
 
     <script src="components/jquery/jquery.js"></script>
     <script src="components/angular/angular.js"></script>
