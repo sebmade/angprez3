@@ -4,11 +4,6 @@
     <list default="true" id="c9cb6605-eb54-451d-8c35-7765309f1524" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/slide0.html" afterPath="$PROJECT_DIR$/app/slide0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/slide1.html" afterPath="$PROJECT_DIR$/app/slide1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/slide2.html" afterPath="$PROJECT_DIR$/app/slide2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/slide3.html" afterPath="$PROJECT_DIR$/app/slide3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="$PROJECT_DIR$/test/spec/controllers/main.js" />
     </list>
     <ignored path="angprez2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="578" selection-end="578" vertical-scroll-proportion="0.6233766">
+            <state line="22" column="55" selection-start="684" selection-end="684" vertical-scroll-proportion="0.7619048">
               <folding />
             </state>
           </provider>
@@ -76,7 +71,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,8 +121,8 @@
         <option value="$PROJECT_DIR$/app/slide1.html" />
         <option value="$PROJECT_DIR$/app/slide2.html" />
         <option value="$PROJECT_DIR$/app/slide3.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/test/spec/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
@@ -557,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
@@ -571,9 +559,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="578" selection-end="578" vertical-scroll-proportion="0.6233766">
+        <state line="22" column="55" selection-start="684" selection-end="684" vertical-scroll-proportion="0.7619048">
           <folding />
         </state>
       </provider>
