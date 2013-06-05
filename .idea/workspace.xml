@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9cb6605-eb54-451d-8c35-7765309f1524" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sampledb.html" afterPath="$PROJECT_DIR$/app/sampledb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repeat.html" afterPath="$PROJECT_DIR$/app/repeat.html" />
     </list>
     <ignored path="angprez2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,19 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repeat.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="repeat.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/repeat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="9" selection-start="74" selection-end="74" vertical-scroll-proportion="-2.909091">
+            <state line="4" column="60" selection-start="149" selection-end="149" vertical-scroll-proportion="0.14307004">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sampledb.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sampledb.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sampledb.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="84" selection-start="174" selection-end="174" vertical-scroll-proportion="0.17883755">
+            <state line="5" column="84" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.6363637">
               <folding />
             </state>
           </provider>
@@ -127,7 +127,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/directive.html" />
         <option value="$PROJECT_DIR$/app/data/slides.json" />
-        <option value="$PROJECT_DIR$/app/repeat.html" />
         <option value="$PROJECT_DIR$/app/slide0.html" />
         <option value="$PROJECT_DIR$/app/slide3.html" />
         <option value="$PROJECT_DIR$/test/spec/controllers/main.js" />
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/sampledb.html" />
+        <option value="$PROJECT_DIR$/app/repeat.html" />
       </list>
     </option>
   </component>
@@ -576,16 +576,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/repeat.html">
+    <entry file="file://$PROJECT_DIR$/app/sampledb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="74" selection-end="74" vertical-scroll-proportion="-2.909091">
+        <state line="5" column="84" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.6363637">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sampledb.html">
+    <entry file="file://$PROJECT_DIR$/app/repeat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="84" selection-start="174" selection-end="174" vertical-scroll-proportion="0.17883755">
+        <state line="4" column="60" selection-start="149" selection-end="149" vertical-scroll-proportion="0.14307004">
           <folding />
         </state>
       </provider>

@@ -1,8 +1,8 @@
 <div class="container">
     <br><br><br>
 
-    <div class="note">
-      <a></a>
+    <div class="note" ng-repeat="s in slides">
+      <a ng-href="#/{{$index}}" ng-bind-html-unsafe="s.title"></a>
       <br>
     </div>
 </div>
