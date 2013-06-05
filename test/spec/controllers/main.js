@@ -8,11 +8,17 @@ describe('Controller: MainCtrl', function () {
   var MainCtrl, scope;
 
   // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
+  beforeEach(inject(function ($controller, $rootScope, $httpBackend) {
     scope = $rootScope.$new();
+
+    $httpBackend.when("GET", "/data/slides.json").respond([{title: "test", content: "slide0.html"}]);
+
     MainCtrl = $controller('MainCtrl', {
       $scope: scope
     });
+
+    $httpBackend.flush();
+
   }));
 
   it('should increment slide index', function() {
