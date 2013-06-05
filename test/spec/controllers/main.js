@@ -15,7 +15,16 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should ...', function () {
-    expect().toBe();
+  it('should increment slide index', function() {
+    scope.slideIndex = 0;
+    scope.nextSlide();
+    expect(scope.slideIndex).toBe(1);
   });
+
+  it('should decrement slide index', function() {
+    scope.slideIndex = 1;
+    scope.previousSlide();
+    expect(scope.slideIndex).toBe(0);
+  });
+
 });
